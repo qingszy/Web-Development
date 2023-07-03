@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulir</title>
+    <link rel="stylesheet" href="styles/form_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!--   Navbar -->
+    <div class="container">
+      <nav
+        class="navbar navbar-expand navbar-light bg-light shadow shadow-sm mb-2 px-2"
+      >
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="https://orbitfutureacademy.id/wp-content/uploads/2021/10/logo-1.png"
+            width="60px"
+            height="auto"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <div class="" id="navbarNav">
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Web Bootstrap/profile-bootstrap.html"
+                >Profile Bootstrap</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Web Bootstrap/form-bootstrap.html"
+                >Form Bootstrap</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End  -->
+
+    <h1>Ini adalah Formulir</h1>
+
+    <form enctype="multipart/form-data" style="margin-left: 60px">
+      <!-- 1. Contoh dari input text (Nama) -->
+      <br />
+      <label for="Name">Nama Lengkap : </label> <br />
+      <input type="text" />
+      <br />
+
+      <!-- 2. Contoh dari input radio -->
+      <br />
+      <label for="sex">Jenis Kelamin : </label> <br />
+      <input type="radio" id="L" value="L" name="jenis_kelamin" />
+      <label for="L">Laki - laki</label> <br />
+      <input type="radio" id="P" value="P" name="jenis_kelamin" />
+      <label for="P">Perempuan</label>
+      <br />
+
+      <!-- 3. Contoh dari input number (Usia) -->
+      <br />
+      <label for="Name">Usia : </label> <br />
+      <input type="number" />
+      <label for="keterangan">tahun</label> <br />
+      <br />
+
+      <!-- 4. Contoh dari input date (Tanggal Lahir) -->
+      <br />
+      <label for="Name">Tanggal Lahir : </label>
+      <br />
+      <input type="date" />
+      <br />
+
+      <!-- 5. Contoh dari input number (Tinggi Badan)-->
+      <br />
+      <label for="Name">Tinggi Badan : </label> <br />
+      <input type="number" />
+      <label for="keterangan">cm</label> <br />
+      <br />
+
+      <!-- 6. Contoh dari input number (Berat Badan)-->
+      <br />
+      <label for="berat_badan">Berat Badan :</label> <br />
+      <input type="number" id="berat_badan" />
+      <label for="keterangan">kg</label> <br />
+      <br />
+
+      <!-- 7. Contoh dari select (Pendidikan Terakhir)-->
+      <br />
+      <label for="pendidikan">Pendidikan Terakhir :</label> <br />
+      <select name="pendidikan" id="pendidikan">
+        <option value="SMP">SMP</option>
+        <option value="SMA">SMA</option>
+        <option value="SMK">SMK</option>
+        <option value="S1">S1</option>
+        <option value="S2">S2</option>
+      </select>
+      <br />
+
+      <!-- 8. Contoh dari input file -->
+      <br />
+      <label for="gambar"></label>
+      <br />
+      <input
+        type="file"
+        id="gambar"
+        name="myfile"
+        accept="image/png, image/jpeg"
+      />
+      <br />
+
+      <!-- 9. Contoh dari submit -->
+      <br />
+      <button type="submit">Submit</button>
+
+      <br /><br />
+
+      <!-- dan contoh lain tipe input lain bisa lihat dilink bawah ini -->
+      <a href="https://www.w3schools.com/html/html_form_input_types.asp"
+        >Contoh tipe input lain</a
+      >
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

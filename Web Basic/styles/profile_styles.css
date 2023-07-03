@@ -1,0 +1,49 @@
+a {
+    margin-left: 20px;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  h2 {
+    color: maroon;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  img.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: Lightgreen;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
